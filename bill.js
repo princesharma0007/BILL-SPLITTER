@@ -36,7 +36,7 @@ let calculate = document.getElementById("calculate");
 calculate.className =" border-2 text-lg font-bold border-black rounded py-2 w-40 self-end";
 
 let resultSection = document.getElementById("result-section");
-resultSection.className = "w-[260px] text-lg rounded-lg p-6 flex flex-col gap-6";
+resultSection.className = "w-[260px] text-lg rounded-lg p-6 flex flex-col gap-6"; 
 
 let tipResult = document.getElementById("tip-result");
 tipResult.className = "border-2 text-lgfont-bold border-black rounded text-center text-3xl py-3";
