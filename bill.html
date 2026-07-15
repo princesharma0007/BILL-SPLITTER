@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <div id="main-frame">
+         <div id="amount-section">
+        <h1 id="heading">Bill Splitter</h1>
+         <input type="number" id="amount" placeholder="Enter Total Amount">
+          <div id="button-section">
+                <button id="percentage1">5%</button>
+                <button id="percentage2">10%</button>
+                <button id="percentage3">25%</button>
+                <button id="percentage4">50%</button>
+                <button id="percentage5">Custom</button>
+            </div>
+          <input type="number" id="people" placeholder="No. of People">
+
+            <button id="calculate">Calculate</button>
+
+        </div>
+
+        <div id="result-section">
+         <h2>Total Tip</h2>
+            <div id="tip-result">₹0</div>
+
+            <h2>Total Bill Per Person</h2>
+            <div id="split-result">₹0</div>
+
+        </div>
+
+    </div>
+
+    <script src="bill.js"></script>
+
+</body>
+
+</html>
