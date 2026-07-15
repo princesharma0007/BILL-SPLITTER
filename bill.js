@@ -18,7 +18,7 @@ buttonSection.className = "grid grid-cols-2 gap-3";
 let button1 = document.getElementById("percentage1");
 let button2 = document.getElementById("percentage2");
 let button3 = document.getElementById("percentage3");
-let button4 = document.getElementById("percentage4");
+let button4 = document.getElementById("percentage4"); 
 let button5 = document.getElementById("percentage5");
 
 
