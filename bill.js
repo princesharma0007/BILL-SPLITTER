@@ -3,7 +3,7 @@ mainFrame.className = "border-2 border-black flex justify-center items-start gap
 
 let amountSection = document.getElementById("amount-section");
 amountSection.className ="w-[420px] rounded-lg p-6 flex flex-col gap-5"; 
-
+ 
 let amountHeading = document.querySelector("#heading");
 amountHeading.className = "text-3xl font-bold text-center";
 let amountInput = document.getElementById("amount");
