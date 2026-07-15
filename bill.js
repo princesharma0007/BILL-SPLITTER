@@ -8,7 +8,7 @@ let amountHeading = document.querySelector("#heading");
 amountHeading.className = "text-3xl font-bold text-center";
 let amountInput = document.getElementById("amount");
 amountInput.className ="border-2 border-black rounded p-2 w-full";
-
+ 
 let peopleInput = document.getElementById("people");
 peopleInput.className = "border-2 border 2 border-black rounded p-2 w-full h-20";
 
