@@ -2,7 +2,7 @@ let mainFrame = document.getElementById("main-frame");
 mainFrame.className = "border-2 border-black flex justify-center items-start gap-12 min-h-screen bg-gray-100 p-10";
 
 let amountSection = document.getElementById("amount-section");
-amountSection.className ="w-[420px] rounded-lg p-6 flex flex-col gap-5";
+amountSection.className ="w-[420px] rounded-lg p-6 flex flex-col gap-5"; 
 
 let amountHeading = document.querySelector("#heading");
 amountHeading.className = "text-3xl font-bold text-center";
