@@ -47,7 +47,7 @@ splitResult.className = "border-2 border-black rounded text-center text-3xl py-3
 
 let tip = 0; 
 
-button1.onclick = function () {
+button1.onclick = function () { 
     tip = 0.05;
 };
 
