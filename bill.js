@@ -22,7 +22,7 @@ let button4 = document.getElementById("percentage4");
 let button5 = document.getElementById("percentage5");
 
  
-button1.className = "border-2 border-black rounded py-2";
+button1.className = "border-2 border-black rounded py-2"; 
 
 button2.className ="border-2 border-black rounded py-2";
 
