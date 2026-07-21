@@ -5,7 +5,7 @@ let amountSection = document.getElementById("amount-section");
 amountSection.className ="w-[420px] rounded-lg p-6 flex flex-col gap-5"; 
  
 let amountHeading = document.querySelector("#heading");
-amountHeading.className = "text-3xl font-bold text-center";
+amountHeading.className = "text-3xl font-bold text-center"; 
 let amountInput = document.getElementById("amount");
 amountInput.className ="border-2 border-black rounded p-2 w-full";
  
